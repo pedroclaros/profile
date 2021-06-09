@@ -1,0 +1,91 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+body {
+    background-color: rgb(247,249,252);
+    font-family: 'Robot', sans-serif;
+    font-size: 17px;
+    line-height: 120%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300; /* if you want the light version */
+}
+
+h1  {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    line-height: 20%;
+}
+
+h2  {
+    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    line-height: 20%;
+}
+
+link {
+    color:indigo;
+    text-decoration: lavender;
+}
+
+a:hover   {
+    color: black;
+    font-style: inherit;
+    text-overflow: ellipsis;
+    font-weight: lighter;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color:#6B72E1;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: rgb(214, 214, 221);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.list-inline > li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+  }
+
+.img-circle {
+border-radius: 50%;
+}
+
+.card {
+    background-color: rgb(218, 226, 228);
+    padding: 40px;
+    width: 700px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px;
+    text-align: center;
+}
+
+@media(max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .card {
+    width: 300px;
+    }
+  }
+  /* For a screen < 720px, this CSS will be read */
+@media(max-width: 720px) {
+    .card {
+    width: 300px;
+    }
+}
+@media(max-width: 540px) {
+/* For a screen < 540px, this CSS will be read */
+    .card {
+    width: 300px;
+    }
+}
